@@ -107,7 +107,6 @@ def EnviarPunto1():
     print(hora())
 
 ###############################################################################
-
 def EnviarPunto2():
     inPto2 = input('Ingrese Altura Referencia 2\n')
     try:
@@ -123,7 +122,6 @@ def EnviarPunto2():
         print(rta[0])
 
 ###############################################################################
-
 def LeerContador():
     contador = comm.getCounter()
     try:
@@ -183,15 +181,11 @@ def hora():
     return st
 
 ###############################################################################
-
 def EnviarPuntos():
     EnviarPunto1()
     EnviarPunto2()
 
-
 ###############################################################################
-
-
 def error():
    print("Opción no valida")
 
@@ -199,7 +193,6 @@ def error():
 
 
 comm = Comunicacion('192.168.0.245')
-
 
 dic ={
     '1': LeerAlturaLin,

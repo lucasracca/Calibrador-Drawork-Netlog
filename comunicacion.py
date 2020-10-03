@@ -20,7 +20,6 @@ class Comunicacion():
 ###############################################################################
 # Método que establece IP que tiene el K64 para la comunicación               #
 ###############################################################################
-
     def setAddress(self, address):
         self.server_address = address
 
