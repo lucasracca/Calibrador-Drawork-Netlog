@@ -190,9 +190,7 @@ def error():
 
 ###############################################################################
 
-
 comm = Comunicacion('192.168.0.245')
-
 dic ={
     '1': LeerAlturaLin,
     '2': LeerParametrosLin,
