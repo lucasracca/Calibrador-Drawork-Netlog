@@ -170,7 +170,8 @@ def LeerParametrosLin():
     parametros = comm.getParametersLin()
     try:
         m = float(parametros[3]) * 4
-        print("Punto 1: ", parametros[0][:-5], '\nPendiente:', str(m), '\nEstado:', parametros[4])
+        print("Punto 1: ", parametros[0][:-5], '\nPendiente:', str(m), '\nEstado:',
+              parametros[4])
     except:
         print('Pendiente no es un numero')
 
