@@ -1,7 +1,6 @@
 import sys
 import datetime
 import time
-
 from comunicacion import *
 
 ###############################################################################

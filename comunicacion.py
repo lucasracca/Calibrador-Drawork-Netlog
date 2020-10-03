@@ -69,7 +69,6 @@ class Comunicacion():
         datos = self.parse_body(body)
         return datos
 
-
 ###############################################################################
 # Método que envia el sentido de giro ForWare del encoder al K64              #
 # Retorna la respuesta del k64 en una lista                                   #
