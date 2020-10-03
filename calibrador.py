@@ -152,8 +152,10 @@ def LeerParametrosDrw():
     parametros = comm.getParametersDrw()
     try:
         ppr = int(parametros[0]) / 4
-        print("PPR: ",ppr, '\nDiametro Tambor:', parametros[1][:-2],'\nDiametro Cable:', parametros[2][:-2],
-              '\nHiladas por capas:', parametros[3],'\nFactor de Aparejo:', parametros[4][:-3], '\nEstado:', parametros[5])
+        print("PPR: ",ppr, '\nDiametro Tambor:', parametros[1][:-2],
+              '\nDiametro Cable:', parametros[2][:-2],'\nHiladas por capas:',
+              parametros[3],'\nFactor de Aparejo:', parametros[4][:-3], 
+              '\nEstado:', parametros[5])
     except:
         print(parametros)
 ###############################################################################
