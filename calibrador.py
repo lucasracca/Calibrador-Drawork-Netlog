@@ -197,21 +197,8 @@ def error():
 
 ###############################################################################
 
-comm = 0
 
-lineal = 0
 comm = Comunicacion('192.168.0.245')
-
-
-
-
-#response =ping('192.168.0.245', timeout=10)
-
-
-
-
-#contador =requests.get('http://192.168.0.245/getCounter()')
-#response = requests.get('http://www.aprenderpython.net')
 
 
 dic ={

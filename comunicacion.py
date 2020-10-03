@@ -54,7 +54,6 @@ class Comunicacion():
             body = requests.get(http, timeout=0.5)  #Envia comando HTTP y genera una exepcion de timeout de 0.5 seg
             self.conectado = 1
             return body.text
-
         except:                                     # Error de conexión
             print("problemas de conexion")
             self.conectado = 0
@@ -140,7 +139,6 @@ class Comunicacion():
 # Retorna la respuesta del k64 en una lista                   #
 ###############################################################################
     def setGeometry(self, Ppr, DiametroTambor, DiametroCable, Hpc, FactorAparejo):
-
         http = 'http://{}/setGeometry({},{},{},{},{})'.format(self.server_address,Ppr,DiametroTambor,
                                                               DiametroCable, Hpc, FactorAparejo)
         print (http)
