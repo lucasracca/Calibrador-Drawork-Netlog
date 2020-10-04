@@ -1,3 +1,7 @@
+###############################################################################
+# Programa que genera un menú de opciones para probar las funciones de        #
+# comunicación http con el K64.                                               #
+########################### ####################################################
 import sys
 import datetime
 import time
